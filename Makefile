@@ -1,4 +1,3 @@
-install-local:
-	pip install -r local-requirements.txt
 install:
-	pip install -r requirements.txt
+	pip install --upgrade pip &&\
+		pip install -r requirements.txt
