@@ -4,3 +4,9 @@ install:
 
 lint:
 	pylint --disable=R,C server.py
+	
+test:
+	python -m pytest -vv --cov=hello server.py
+	
+
+
