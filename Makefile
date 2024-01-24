@@ -4,4 +4,3 @@ install:
 
 lint:
 	pylint --disable=R,C server.py
-#test
