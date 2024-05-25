@@ -1,4 +1,4 @@
 flask
 pylint
 pytest
-pytest-cov
+# pytest-cov
